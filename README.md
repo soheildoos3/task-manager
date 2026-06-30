@@ -10,6 +10,48 @@ A complete task management application built with **FastAPI** (Backend) and **Ne
 
 ---
 
+## 📸 Screenshots
+
+### Landing Page
+
+![Landing Page](screenshots/landing.png)
+
+### Authentication
+
+| Login                           | Register                              |
+| ------------------------------- | ------------------------------------- |
+| ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
+
+### Dashboard & Board
+
+| Dashboard                               | Task Board                      |
+| --------------------------------------- | ------------------------------- |
+| ![Dashboard](screenshots/dashboard.png) | ![Board](screenshots/board.png) |
+
+### Task Management
+
+| Task List                       | Task Form                               | Task Detail                                 |
+| ------------------------------- | --------------------------------------- | ------------------------------------------- |
+| ![Tasks](screenshots/tasks.png) | ![Task Form](screenshots/task-form.png) | ![Task Detail](screenshots/task-detail.png) |
+
+### Calendar & Reports
+
+| Calendar                              | Reports                             |
+| ------------------------------------- | ----------------------------------- |
+| ![Calendar](screenshots/calendar.png) | ![Reports](screenshots/reports.png) |
+
+### Profile & API
+
+| Profile                             | API Documentation                   |
+| ----------------------------------- | ----------------------------------- |
+| ![Profile](screenshots/profile.png) | ![Swagger](screenshots/swagger.png) |
+
+### Dark Mode
+
+![Dark Mode](screenshots/dark-mode.png)
+
+---
+
 ## ✨ Features
 
 ### 🔐 Authentication
@@ -90,7 +132,7 @@ A complete task management application built with **FastAPI** (Backend) and **Ne
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/soheildoos3/task-manager.git
 cd task-manager
 
 # 2. Copy environment files
