@@ -1,0 +1,174 @@
+task-manager
+task-manager/docker-compose.yml
+
+
+task-manager/backend
+task-manager/backend/app
+task-manager/backend/app/api
+task-manager/backend/app/api/v1
+task-manager/backend/app/api/v1/auth.py
+task-manager/backend/app/api/v1/router.py
+task-manager/backend/app/api/v1/tasks.py
+task-manager/backend/app/api/v1/users.py
+task-manager/backend/app/api/v2
+task-manager/backend/app/core
+task-manager/backend/app/core/config.py
+task-manager/backend/app/core/database.py
+task-manager/backend/app/core/security.py
+task-manager/backend/app/core/__init__.py
+task-manager/backend/app/dependencies
+task-manager/backend/app/dependencies/auth.py
+task-manager/backend/app/dependencies/database.py
+task-manager/backend/app/dependencies/pagination.py
+task-manager/backend/app/dependencies/__init__.py
+task-manager/backend/app/models
+task-manager/backend/app/models/base.py
+task-manager/backend/app/models/task.py
+task-manager/backend/app/models/user.py
+task-manager/backend/app/models/__init__.py
+task-manager/backend/app/schemas
+task-manager/backend/app/schemas/task.py
+task-manager/backend/app/schemas/token.py
+task-manager/backend/app/schemas/user.py
+task-manager/backend/app/schemas/__init__.py
+task-manager/backend/app/services
+task-manager/backend/app/services/auth_service.py
+task-manager/backend/app/services/task_service.py
+task-manager/backend/app/services/user_service.py
+task-manager/backend/app/services/__init__.py
+task-manager/backend/app/main.py
+task-manager/backend/migrations
+task-manager/backend/venv
+task-manager/backend/.dockerignore
+task-manager/backend/.env
+task-manager/backend/.env.example
+task-manager/backend/.gitignore
+task-manager/backend/alembic.ini
+task-manager/backend/Dockerfile
+task-manager/backend/requirements.txt
+
+
+task-manager/frontend
+task-manager/frontend/app
+task-manager/frontend/app/(auth)
+task-manager/frontend/app/(auth)/login
+task-manager/frontend/app/(auth)/login/page.tsx -SSR 
+task-manager/frontend/app/(auth)/register/
+task-manager/frontend/app/(auth)/register/page.tsx  -SSR 
+task-manager/frontend/app/(auth)/layout.tsx
+task-manager/frontend/app/dashboard
+task-manager/frontend/app/dashboard/board
+task-manager/frontend/app/dashboard/board/page.tsx
+task-manager/frontend/app/dashboard/calendar
+task-manager/frontend/app/dashboard/calendar/page.tsx
+task-manager/frontend/app/dashboard/profile
+task-manager/frontend/app/dashboard/profile/page.tsx
+task-manager/frontend/app/dashboard/reports
+task-manager/frontend/app/dashboard/reports/page.tsx
+task-manager/frontend/app/dashboard/task
+task-manager/frontend/app/dashboard/task/[id]
+task-manager/frontend/app/dashboard/task/[id]/page.tsx
+task-manager/frontend/app/dashboard/task/new
+task-manager/frontend/app/dashboard/task/new/page.tsx
+task-manager/frontend/app/dashboard/task/page.tsx
+task-manager/frontend/app/dashboard/layout.tsx
+task-manager/frontend/app/dashboard/page.tsx
+task-manager/frontend/app/error.tsx -CSR 
+task-manager/frontend/app/favicon.ico
+task-manager/frontend/app/global-error.tsx  -CSR
+task-manager/frontend/app/globals.css
+task-manager/frontend/app/layout.tsx    -SSR 
+task-manager/frontend/app/loading.tsx   -SSR 
+task-manager/frontend/app/not-found.tsx -SSG 
+task-manager/frontend/app/page.tsx  -SSG
+task-manager/frontend/components
+task-manager/frontend/components/common
+task-manager/frontend/components/common/Footer
+task-manager/frontend/components/common/Footer/LandingFooter.tsx    -SSG 
+task-manager/frontend/components/common/Header
+task-manager/frontend/components/common/Header/DashboardHeader.tsx  -CSR 
+task-manager/frontend/components/common/Header/LandingHeader.tsx    -CSR 
+task-manager/frontend/components/common/Header/ThemeToggle.tsx  -CSR 
+task-manager/frontend/components/common/Sidebar
+task-manager/frontend/components/common/Sidebar/app-sidebar.tsx -CSR
+task-manager/frontend/components/common/Sidebar/nav-main.tsx    -CSR 
+task-manager/frontend/components/common/Sidebar/nav-user.tsx    -CSR 
+task-manager/frontend/components/common/Sidebar/team-switcher.tsx   -CSR 
+task-manager/frontend/components/features
+task-manager/frontend/components/features/auth
+task-manager/frontend/components/features/auth/LoginForm.tsx    -CSR 
+task-manager/frontend/components/features/auth/RegisterForm.tsx     -CSR 
+task-manager/frontend/components/features/dashboard
+task-manager/frontend/components/features/dashboard/calendar
+task-manager/frontend/components/features/dashboard/calendar/CalendarDay.tsx
+task-manager/frontend/components/features/dashboard/calendar/CalendarGrid.tsx
+task-manager/frontend/components/features/dashboard/calendar/CalendarHeader.tsx
+task-manager/frontend/components/features/dashboard/charts
+task-manager/frontend/components/features/dashboard/charts/CompletionLineChart.tsx
+task-manager/frontend/components/features/dashboard/charts/PriorityBarChart.tsx
+task-manager/frontend/components/features/dashboard/charts/StatusPieChart.tsx
+task-manager/frontend/components/features/dashboard/profile
+task-manager/frontend/components/features/dashboard/profile/ChangePasswordForm.tsx
+task-manager/frontend/components/features/dashboard/profile/DeleteAccountDialog.tsx
+task-manager/frontend/components/features/dashboard/profile/ProfileForm.tsx
+task-manager/frontend/components/features/dashboard/profile/ProfileInfo.tsx
+task-manager/frontend/components/features/dashboard/reports
+task-manager/frontend/components/features/dashboard/reports/PriorityDistribution.tsx
+task-manager/frontend/components/features/dashboard/reports/RecentTasks.tsx
+task-manager/frontend/components/features/dashboard/reports/StatsCards.tsx
+task-manager/frontend/components/features/dashboard/reports/StatusDistribution.tsx
+task-manager/frontend/components/features/dashboard/tasks
+task-manager/frontend/components/features/dashboard/tasks/PaginationButtons.tsx
+task-manager/frontend/components/features/dashboard/tasks/TaskBoard.tsx
+task-manager/frontend/components/features/dashboard/tasks/TaskCard.tsx
+task-manager/frontend/components/features/dashboard/tasks/TaskFilters.tsx
+task-manager/frontend/components/features/dashboard/tasks/TaskForm.tsx
+task-manager/frontend/components/features/dashboard/tasks/TaskList.tsx
+task-manager/frontend/components/features/dashboard/tasks/TaskStats.tsx
+task-manager/frontend/components/features/landing
+task-manager/frontend/components/features/landing/CTASection.tsx    -CSR 
+task-manager/frontend/components/features/landing/FeaturesSection.tsx   -SSG 
+task-manager/frontend/components/features/landing/HeroSection.tsx   -CSR 
+task-manager/frontend/components/features/landing/StatsSection.tsx  -SSG 
+task-manager/frontend/components/providers
+task-manager/frontend/components/providers/AuthProvider.tsx -CSR 
+task-manager/frontend/components/providers/Providers.tsx    -CSR 
+task-manager/frontend/components/providers/QueryProvider.tsx    -CSR 
+task-manager/frontend/components/providers/ThemeProvider.tsx    -CSR 
+task-manager/frontend/components/providers/ToastProvider.tsx    -CSR 
+task-manager/frontend/components/ui
+task-manager/frontend/hooks
+task-manager/frontend/lib
+task-manager/frontend/lib/api
+task-manager/frontend/lib/api/client.ts
+task-manager/frontend/lib/api/endpoints.ts
+task-manager/frontend/lib/utils.ts
+task-manager/frontend/node_modules
+task-manager/frontend/public
+task-manager/frontend/services
+task-manager/frontend/services/auth.service.ts
+task-manager/frontend/services/tasks.service.ts
+task-manager/frontend/services/users.service.ts
+task-manager/frontend/stores
+task-manager/frontend/stores/auth.store.ts
+task-manager/frontend/types
+task-manager/frontend/types/api.ts
+task-manager/frontend/types/task.ts
+task-manager/frontend/types/user.ts
+task-manager/frontend/.dockerignore
+task-manager/frontend/.env
+task-manager/frontend/.env.example
+task-manager/frontend/.gitignore
+task-manager/frontend/.prettierrc
+task-manager/frontend/AGENTS.md
+task-manager/frontend/CLAUDE.md
+task-manager/frontend/components.json
+task-manager/frontend/Dockerfile
+task-manager/frontend/eslint.config.mjs
+task-manager/frontend/next-env.d.ts
+task-manager/frontend/next.config.ts
+task-manager/frontend/package-lock.json
+task-manager/frontend/package.json
+task-manager/frontend/postcss.config.mjs
+task-manager/frontend/README.md
+task-manager/frontend/tsconfig.json
