@@ -50,6 +50,12 @@
 
 ![Dark Mode](screenshots/dark-mode.png)
 
+## 🌐 نسخه زنده
+
+- **فرانت‌اند:** [task-manager-frontend-lyart-nu.vercel.app](https://task-manager-frontend-lyart-nu.vercel.app)
+- **بک‌اند:** [task-manager-api-beige.vercel.app](https://task-manager-api-beige.vercel.app)
+- **مستندات API:** [task-manager-api-beige.vercel.app/docs](https://task-manager-api-beige.vercel.app/docs)
+
 ---
 
 ## ✨ ویژگی‌ها

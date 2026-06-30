@@ -50,6 +50,12 @@ A complete task management application built with **FastAPI** (Backend) and **Ne
 
 ![Dark Mode](screenshots/dark-mode.png)
 
+## 🌐 Live Demo
+
+- **Frontend:** [task-manager-frontend-lyart-nu.vercel.app](https://task-manager-frontend-lyart-nu.vercel.app)
+- **Backend API:** [task-manager-api-beige.vercel.app](https://task-manager-api-beige.vercel.app)
+- **API Documentation:** [task-manager-api-beige.vercel.app/docs](https://task-manager-api-beige.vercel.app/docs)
+
 ---
 
 ## ✨ Features
